@@ -1,11 +1,12 @@
-import React from 'react'
+import Image from "next/image";
+import logo from "@/public/logo.png";
 
 const Navbar = () => {
   return (
-      <nav>
-          
+    <nav>
+      
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

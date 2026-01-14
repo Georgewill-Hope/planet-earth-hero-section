@@ -3,13 +3,22 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --ash: #cecece;
+  --blue: #6bb3ff;
+  --light-ash: #e6e6e6;
+  --dark-ash: #161616;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-instrument-serif);
+  --font-sans: var(--font-instrument-sans);
+  --font-inter: var(--font-inter-sans);
+  --earth-ash: var(--ash);
+  --earth-blue: var(--blue);
+  --earth-light-ash: var(--ligth-ash);
+  --earth-dark-ash: var(--dark-ash);
 }
 
 @media (prefers-color-scheme: dark) {
