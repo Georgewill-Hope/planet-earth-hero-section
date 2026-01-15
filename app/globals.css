@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --ash: #cecece;
+  --custom-ash: #CECECE;
   --blue: #6bb3ff;
   --light-ash: #e6e6e6;
   --dark-ash: #161616;
@@ -15,16 +15,20 @@
   --font-serif: var(--font-instrument-serif);
   --font-sans: var(--font-instrument-sans);
   --font-inter: var(--font-inter-sans);
-  --earth-ash: var(--ash);
-  --earth-blue: var(--blue);
-  --earth-light-ash: var(--ligth-ash);
-  --earth-dark-ash: var(--dark-ash);
+  --color-earth-ash: var(--custom-ash);
+  --color-earth-blue: var(--blue);
+  --color-earth-light-ash: var(--light-ash);
+  --color-earth-dark-ash: var(--dark-ash);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --color-earth-ash: var(--ash);
+    --color-earth-blue: var(--blue);
+    --color-earth-light-ash: var(--light-ash);
+    --color-earth-dark-ash: var(--dark-ash);
   }
 }
 
@@ -32,4 +36,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.customFlex{
+ @apply flex items-center justify-center flex-col
+}
+
+.containerWidth{
+  @apply w-full max-w-2xl lg:max-w-7xl mx-auto
 }

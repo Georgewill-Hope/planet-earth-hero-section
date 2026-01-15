@@ -21,3 +21,5 @@ const navData: navDataProps[] = [
     title: "About",
   },
 ];
+
+export default navData;
