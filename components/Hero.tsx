@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import earth from "@/public/pexels-felkerpixel-6220559.jpg";
+import earth from "@/public/earth.png";
 import Button from "./Button";
 import { FaArrowRight } from "react-icons/fa";
 import companies from "@/public/companies.png";
