@@ -10,7 +10,7 @@ import { container, fromTop, fromBottom } from "@/lib/animation";
 
 const Hero = () => {
   return (
-    <section className="h-svh max-h-125px sm:max-h-screen relative">
+    <section className="h-svh max-h-210 lg:max-h-screen relative">
       <Image
         src={earth}
         alt="earth"
@@ -18,7 +18,7 @@ const Hero = () => {
         className="object-cover object-center"
       />
 
-      <div className="absolute top-0 bottom-0 left-0 right-0 bg-black/30 flex flex-col items-center justify-between text-center  pb-10 py-40 px-3">
+      <div className="absolute top-0 bottom-0 left-0 right-0 bg-black/30 flex flex-col items-center justify-between text-center pb-20  lg:pb-10 py-40 px-3">
         {/* TOP CONTENT */}
         <motion.div
           variants={container}
